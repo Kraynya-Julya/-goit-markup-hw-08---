@@ -1739,7 +1739,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .item {
-    padding-bottom: 56px;
+    padding-bottom: 50px;
   }
 }
 
@@ -1752,6 +1752,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .main-button {
     padding-bottom: 0;
+    padding-top: 94px;
   }
 }
 
