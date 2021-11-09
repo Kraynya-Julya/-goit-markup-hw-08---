@@ -1139,14 +1139,7 @@ img {
   background-color: #f5f4fa;
 }
 
-@media screen and (min-width: 480px) {
-  .masters {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .masters {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1230,7 +1223,7 @@ img {
 }
 
 .clients-section {
-  padding-top: 30px;
+  padding-top: 60px;
   background-color: var(--title--text-color);
 }
 
