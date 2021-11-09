@@ -52,9 +52,6 @@ font-style: normal;
 
 
 .gallery-item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   @media screen and (min-width: 768px){
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +66,7 @@ font-style: normal;
 .gallery-list {
   // flex-basis: calc(100% / 3 - 30px);
   // margin-left: 30px;
-  width: 370px;
+  width: 100%;
   position: relative;
  &:hover .gallery-top-text{
   transform: translateY(0);
